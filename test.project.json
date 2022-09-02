@@ -1,5 +1,5 @@
 {
-    "name": "Project",
+    "name": "Classy",
     "tree": {
         "$className": "DataModel",
         
@@ -21,7 +21,10 @@
 
         "StarterPlayer": {
             "$className": "StarterPlayer",
-            "$path": "tests/client"
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "tests/client"
+            }
         }
     }
 }
