@@ -1,6 +1,14 @@
 {
-    "name": "project",
+    "name": "Project",
     "tree": {
-        "$path": "src"
+        "$className": "DataModel",
+
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            
+            "Project": {
+                "$path": "src"
+            }
+        }
     }
 }
